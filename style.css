@@ -78,6 +78,9 @@ section {
 
 /* responsive */
 @media (max-width: 800px) {
+    .buttons :not(#basket-btn) {
+        display: none;
+    }
     .categories {
         justify-content: center;
     }
@@ -89,6 +92,11 @@ section {
 
     .category h2 {
         font-size: 13px;
+    }
+    #list .item {
+        gap: 15px;
+        min-height: 90px;
+        padding: 5px 15px;
     }
 }
 
@@ -232,7 +240,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
+    padding: 5px 30px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
         rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
