@@ -1,6 +1,6 @@
 <h1>E-COMMERCE-SITE</h1>
 
-<p>This project represents a dynamic and interactive e-commerce website developed using React.js. It offers customers the opportunity to discover, review, add to cart and purchase various products.</p>
+<p>This project represents a dynamic and interactive e-commerce website developed using Javascript. It offers customers the opportunity to explore various products, review them, add to cart, and remove from the cart.</p>
 
 <h2>Features</h2>
 
